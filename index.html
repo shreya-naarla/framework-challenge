@@ -4,17 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Violinist's Contact Page</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
+    <h1>Contact Me</h1>
+    <h2>Hi, I am a violinist. Here is how you can contact me or book me for an event.</h2>
     <nav>
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li>Email: violinist@gmail.com</li>
+        <li>Phone Number: (123)-456-7891</li>
       </ul>
+      <section>
+        <form>
+            <article>
+                <label>Name:
+                    <input type="text">
+                </label>
+            </article>
+            <article>
+                <label>Email Address:
+                    <input type="email">
+                </label>
+            </article>
+            <article>
+                <label for="contact-reason">Reason For Contact:</label>
+                <select id="contact-reason">
+                    <option value="performance">Booking an event performance</option>
+                    <option value="collaboration">Interested in a collaboration</option>
+                    <option value="lesson">Interested in a violin lesson</option>
+                </select>
+            </article>
+            <article>
+                <label>Extra comments and details:
+                    <input type="text">
+                </label>
+            </article>
+            <article>
+                <button>Submit</button>
+            </article>
+        </form>
+    </section>
     </nav>
-    <script src="index.js"></script>
   </body>
 </html>
