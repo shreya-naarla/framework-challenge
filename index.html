@@ -10,8 +10,8 @@
   <body>
     <div class="py-8 px-8 max-w-md bg-gray-100 border border-gray-300 rounded-xl space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
       <div>
-        <h1>Contact Me</h1>
-        <h2>Hi, I am a violinist. Here is how you can contact me or book me for an event.</h2>
+        <h1 class="text-3xl text-black font-semibold">Contact Me</h1>
+        <h2 class="text-2xl text-black font-semibold">Hi, I am a violinist. Here is how you can contact me or book me for an event.</h2>
       </div>
       <nav>
         <ul>
@@ -19,20 +19,20 @@
           <li>Phone Number: (123)-456-7891</li>
         </ul>
         <section>
-          <h3>Contact Form</h3>
+          <h3 class="text-1xl text-black font-semibold">Contact Form</h3>
           <form>
               <article>
-                  <label>Name:
+                  <label><strong>Name:</strong>
                       <input type="text">
                   </label>
               </article>
               <article>
-                  <label>Email Address:
+                  <label><strong>Email Address:</strong>
                       <input type="email">
                   </label>
               </article>
               <article>
-                  <label for="contact-reason">Reason For Contact:</label>
+                  <label for="contact-reason"><strong>Reason For Contact:</strong></label>
                   <select id="contact-reason">
                       <option value="performance">Booking an event performance</option>
                       <option value="collaboration">Interested in a collaboration</option>
@@ -40,12 +40,14 @@
                   </select>
               </article>
               <article>
-                  <label>Extra comments and details:
+                  <label><strong>Extra comments and details:</strong>
                       <input type="text">
                   </label>
               </article>
               <article>
-                  <button>Submit</button>
+                  <div class="border-4 bg-gray-300 border-gray-300 rounded-xl">
+                    <button>Submit</button>
+                  </div>
               </article>
           </form>
       </section>
